@@ -1,0 +1,415 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body {
+  background-color: #000;
+} */
+
+section {
+  width: 1140px;
+  margin: 0 auto;
+  /* background-color: #efedfa; */
+}
+
+section > header > figure > img {
+  margin: 10px 0 0 70px;
+}
+#head_page {
+  background: rgba(0, 0, 0, 0.7) url(/Images/header-bg.jpg) no-repeat center
+    center/cover;
+  background-blend-mode: overlay;
+}
+
+svg {
+  fill: #ffffff;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #f1eeee;
+  padding: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  background-color: #f9b700;
+}
+/* header nav {
+  padding: 15px;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+form {
+  background-color: rgba(73, 73, 73, 0.5);
+
+  border: thin solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  padding: 3%;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px 0 8px 0;
+}
+h2 {
+  color: #fff;
+}
+#Select_Your_Car {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0 8px 0;
+}
+
+#Pickup,
+#Drop_off,
+.Date {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px 0 8px 0;
+}
+
+button {
+  font-weight: bold;
+  font-size: large;
+}
+
+form button {
+  width: 100%;
+  color: #fff;
+  background-color: #f9b700;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px 0 40px 0;
+}
+
+#head_page article div p {
+  color: #fff;
+  padding: 10px;
+}
+
+#head_page article div .frist_p {
+  font-size: 20px;
+}
+#head_page article div .secand_p {
+  font-size: 45px;
+}
+#head_page article div .theard_p {
+  font-size: 20px;
+}
+
+#head_page article div button {
+  color: #fff;
+  background-color: #f9b700;
+  height: 45px;
+  width: 200px;
+  margin-top: 20px;
+  margin: 0 0 0 10px;
+}
+
+#head_page article div {
+  width: 60%;
+  /* padding: 0 30px 0 0; */
+}
+/* -----------------servers section----------- */
+
+#serves_artical article div {
+  background-color: #efedfa;
+  width: 31%;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+#serves_artical article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 35px;
+}
+
+#serves_artical .serves_frist {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#serves_artical .serves_frist,
+.serves_secand {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#serves_artical figure {
+  display: flex;
+}
+
+#serves_artical figure p {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#serves_artical article div > p {
+  text-align: justify;
+  padding-top: 15px;
+}
+
+#about_page figure {
+  display: flex;
+}
+
+#about_page figure img {
+  width: 50%;
+}
+#about_page figure div {
+  width: 50%;
+  padding: 60px;
+}
+
+#about_page figure div .about_p1 {
+  margin: 15px 0 15px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+#about_page figure div .about_p2 {
+  margin: 15px 0 15px 0;
+  font-weight: bold;
+}
+#about_page figure div .about_p3 {
+  margin: 15px 0 15px 0;
+  color: #8d8b8b;
+  text-align: justify;
+}
+
+#about_page figure div button {
+  color: #fff;
+  background-color: #f9b700;
+  height: 45px;
+  width: 170px;
+  margin-top: 20px;
+}
+
+#cars_page figure {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-end; */
+  /* flex-direction: row-reverse; */
+}
+
+#cars_page figure div {
+  /* align-items: center; */
+  /* background-color: #f9b700; */
+}
+#cars_page figure div button {
+  /* align-items: center; */
+  color: #fff;
+  background-color: #292827;
+  height: 45px;
+  width: 190px;
+  margin-top: 20px;
+}
+#cars_page > div {
+  text-align: center;
+}
+#cars_page > div .car_p1 {
+  margin: 20px 0 15px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+#cars_page > div .car_p2 {
+  margin: 20px 0 15px 0;
+  color: #8d8b8b;
+  font-weight: bold;
+}
+
+#cars_page figure div .car_c_p1 {
+  margin: 15px 0 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+#cars_page figure div .car_c_p2,
+.cae_c_p3 {
+  margin: 20px 0 15px 0;
+  color: #8d8b8b;
+  font-weight: bold;
+}
+
+#cars_page figure div .car_c_p1D {
+  color: #f9b700;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#cars_page figure div div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cars_page .polet {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#cars_page .polet .Yallow {
+  background-color: #f9b700;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+#cars_page .polet .gray {
+  background-color: #8d8b8b;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+#team_page {
+  height: 350px;
+  background-image: url(/Images/callaction-bg.jpg);
+
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/callaction-bg.jpg) center/cover no-repeat;
+  background-blend-mode: overlay; */
+}
+
+#team_page > div {
+  margin: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+
+#team_page .team_p1 {
+  /* padding-top: 30px; */
+  margin: 45px 0 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#team_page button {
+  color: #f9b700;
+  border: thin solid #f9b700;
+  background-color: transparent;
+  height: 40px;
+  width: 270px;
+  margin-top: 20px;
+}
+
+#team_page .team_p2 {
+  margin: 20px 0 15px 0;
+  color: #efedfa;
+  font-weight: bold;
+}
+
+#blog_page {
+  display: flex;
+  justify-content: space-between;
+}
+
+#blog_page_head > div {
+  text-align: center;
+  margin: 60px;
+}
+
+#blog_page_head > div .blog_p1 {
+  margin: 60px 0 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+#blog_page_head > div .blog_p2 {
+  margin: 30px 0 15px 0;
+  font-size: 20px;
+}
+
+#blog_page .fig_cart {
+  width: 23%;
+}
+
+#blog_page figure .cart_date {
+  background-color: #000;
+  color: #8d8b8b;
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#blog_page figure .cart_titel {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#blog_page figure .cart_body {
+  margin-top: 10px;
+  color: #8d8b8b;
+}
+
+#blog_page figure .cart_action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.cart_action figure {
+  display: flex;
+  color: #8d8b8b;
+}
+
+#footer {
+  margin-top: 60px;
+  background-color: #04091d;
+  height: 400px;
+  padding: 60px;
+}
+
+#footer > footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer > footer div .footer_head {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#footer > footer div .footer_cont {
+  color: #8d8b8b;
+}
+
+.arrow {
+  background-color: #f9b700;
+  width: 40px;
+  /* padding: 0px; */
+}
+
+.email {
+  /* padding: 10px; */
+  border-radius: 0%;
+}
+
+#footer > footer div .Enter_Email {
+  display: flex;
+}
